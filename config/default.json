@@ -1,9 +1,9 @@
 {
   "port": 3001,
   "appPort": 8080,
-  "host": "localhost:3001",
+  "host": "localhost:80",
   "protocol": "http",
-  "domain": "http://localhost:3001",
+  "domain": "http://eduforms.azurewebsites.net",
   "basePath": "",
   "mongo": "mongodb://eduformsdb:BaE4S91C2uawuycCZl9cAqJ2ern5fjZu5N7qYTO5fE6SyqbXqtfU6pHEsPHV3VwhwMZqBNK9vUdSyBWgQN4z8g==@eduformsdb.documents.azure.com:10250/?ssl=true",
   "mongoSecret": "--- change me now ---",
