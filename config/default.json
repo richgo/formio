@@ -3,7 +3,7 @@
   "appPort": 8080,
   "host": "localhost:80",
   "protocol": "http",
-  "domain": "http://eduforms.azurewebsites.net",
+  "domain": "localhost",
   "basePath": "",
   "mongo": "mongodb://eduformsdb:BaE4S91C2uawuycCZl9cAqJ2ern5fjZu5N7qYTO5fE6SyqbXqtfU6pHEsPHV3VwhwMZqBNK9vUdSyBWgQN4z8g==@eduformsdb.documents.azure.com:10250/?ssl=true",
   "mongoSecret": "--- change me now ---",
@@ -12,6 +12,13 @@
     "secret": "--- change me now ---",
     "expireTime": 240
   },
+   "production": {
+     "root": "rootPath",
+     "app": {
+         "name": ""
+     },
+     "port": "process.env.port"
+ },
   "email": {
     "type": "sendgrid",
     "username": "sendgrid-user",
